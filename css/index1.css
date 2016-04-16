@@ -1,0 +1,210 @@
+/* CSS declarations go here */
+#simple{
+  -webkit-column-count:3;
+  column-fill:balance;
+  -webkit-column-gap:25px;
+  -webkit-column-rule: 1px inset lightgrey;
+  text-indent: 25px;
+}
+#exam{
+  text-align:center;
+  text-decoration: underline ;
+  text-decoration-color: red;
+  text-overflow:ellipsis;
+  text-shadow: 2px 2px lightgrey;
+}
+#spanish{
+  text-transform: capitalize;
+
+}
+.motive{
+   height:300px;
+   width: 100%;
+   background:yellow;
+   border-radius:5px;
+   -webkit-animation: mymove 5s infinite;
+   -webkit-animation-delay:2s;
+   -moz-animation: mymove 5s infinite;
+   -moz-animation-delay:2s;
+
+
+}
+@-webkit-keyframes mymove{
+  0%{background: yellow}
+  25%{background:red}
+  75%{background:green}
+  100%{background:blue}
+
+
+}
+@-moz-keyframes mymove{
+  0%{background: yellow}
+  25%{background:red}
+  75%{background:green}
+  100%{background:blue}
+
+
+}
+.let{
+  display:inline;
+  text-indent:5px;
+  text-shadow: 2px 2px 2px green;
+
+}
+.let span{
+   position: absolute;
+   overflow: hidden;
+   opacity:0;
+   color: white;
+   -webkit-animation: rotate 5s linear infinite 0s;
+   -moz-animation: rotate 5s linear infinite 0s;
+}
+@-webkit-keyframes rotate{
+    0%{opacity:1; animation-timing-function:ease-in;height:0px }
+    8%{opacity:1; height:60px}
+    19%{opacity:0;height:60px}
+    25%{opacity:0;height:60px}
+    100%{opacity:0}
+
+}
+@-moz-keyframes rotate{
+    0%{opacity:1; animation-timing-function:ease-in;height:0px }
+    8%{opacity:1; height:60px}
+    19%{opacity:0;height:60px}
+    25%{opacity:0;height:60px}
+    100%{opacity:0}
+
+}
+.let span:nth-child(2){
+    -webkit-animation-delay:3s;
+    -moz-animation-delay:3s;
+
+}
+.let span:nth-child(3){
+    -webkit-animation-delay:6s;
+    -moz-animation-delay:6s;
+
+}
+.let span:nth-child(4){
+    -webkit-animation-delay:12s;
+    -moz-animation-delay:12s;
+
+}
+.let span:nth-child(5){
+    -webkit-animation-delay:15s;
+    -moz-animation-delay:15s;
+
+}
+mark{
+   background: yellow;
+
+}
+.mass{
+   display:inline;
+   text-indent:5px;
+}
+.mass span{
+   position:absolute;
+   overflow:hidden;
+   opacity:0;
+   color: black;
+   -webkit-animation: myfirst 5s linear infinite 0s;
+   -moz-animation: myfirst 5s linear infinite 0s;
+}
+@-webkit-keyframes myfirst{
+   0%{opacity:1;animation-timing-function: ease-in;height:0px}
+   8%{opacity:1;height:60px}
+   19%{opacity:0;height:60px}
+   25%{opacity:0;height:60px}
+   100%{opacity:0}
+
+
+}
+@-moz-keyframes myfirst{
+   0%{opacity:1;animation-timing-function: ease-in;height:0px}
+   8%{opacity:1;height:60px}
+   19%{opacity:0;height:60px}
+   25%{opacity:0;height:60px}
+   100%{opacity:0}
+
+
+}
+.mass span:nth-child(2){
+   -webkit-animation-delay:3s;
+   -moz-animation-delay:3s;
+}
+.mass span:nth-child(3){
+   -webkit-animation-delay:6s;
+   -moz-animation-delay:6s;
+}
+.mass span:nth-child(4){
+   -webkit-animation-delay:9s;
+   -moz-animation-delay:9s;
+
+}
+progress{background:yellow; height:15px }
+
+.gif{
+  text-align:center;
+}
+body {
+  margin: 2%;
+  align:center;
+  padding:50px 0px 0px 0px;
+  z-index:0;
+  background-color: rgb(232,230,230);
+}
+
+nav{
+  margin :0px;
+  height: 10px;
+  border:2px;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.affix {
+    top:100px;
+}
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.row-footer{
+    background-color: #AfAfAf;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+li,a {
+  text-decoration:none;
+  color: yellow;
+  display:inline;
+  
+}
+a,img{
+  text-align:center;
+  
+  
+}
+figcaption{
+  color: red;
+}
+img { 
+  border:2px solid #000; 
+} 
+.at{
+  background-color:lightgrey;
+  
+}
