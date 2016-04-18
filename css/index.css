@@ -87,15 +87,18 @@ body {
 }
 .carousel {
     background:rgb(0,0,0);
+    width:1000px;
 }
 .carousel .item {
-  height: 300px;
+  height: 600px;
+  
 }
 .item img {
     position: absolute;
     top: 0;
     left: 0;
-    min-height: 300px;
+    min-height: 600px;
+    
 }
 #carouselButtons {
     right:70px;
