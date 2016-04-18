@@ -26,9 +26,7 @@ h2{
 figcaption{
   color: red;
 }
-img { 
-  border:2px solid #000; 
-} 
+
 .at{
   background-color:grey;
   
@@ -86,13 +84,17 @@ body {
     top:100px;
 }
 .carousel {
-    background:rgb(0,0,0);
-    width:1000px;
+    background:rgb(230,230,230);
+    
 }
 .carousel .item {
   height: 600px;
   
 }
+
+
+
+
 .item img {
     position: absolute;
     top: 0;
