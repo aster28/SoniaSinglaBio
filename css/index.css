@@ -16,7 +16,7 @@ h1{
   text-align: center;
 }
 h2{
-   text-align: right;
+   text-align: center;
    color:rgba(0, 255, 0, 0.6);
 }
 .navbar{
@@ -54,7 +54,7 @@ li a{
   font-size: 150%;
 }
 .jumbotron {
-    padding:70px 30px 70px 30px;
+    padding:15px 15px 15px 15px;
     margin:0px auto;
     background: light grey ;
     color:floralwhite;
@@ -98,22 +98,32 @@ body {
     min-height: 300px;
     
 }
-@media (min-width:768px){
+@media (min-width:768px) and (max-width:991px){
  .carousel .item {
-      height: 600px;
+      height: 1000px;
   
 }
 .item img {
     position: absolute;
     top: 0;
     left: 0;
-    min-height: 600px;
+    min-height: 1000px;
     
 }
 }
-
-
-
+@media (min-width:992px){
+     .carousel .item {
+      height: 1000px;
+  
+}
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 1000px;
+    
+} 
+}
 #carouselButtons {
     right:70px;
     position: absolute;
@@ -129,13 +139,14 @@ body {
     margin:0px auto;
     padding: 5px 0px 5px 0px;
     border-bottom: 1px ridge;
-    min-height:400px;
+    min-height:100px;
 }
 
 .row-footer{
     background-color: #AfAfAf;
-    margin:0px auto;
-    padding: 20px 0px 20px 0px;
+    margin-bottom:-150px;
+    margin-top:200px;
+    padding: 5px 0px 5px 0px;
 }
 
 .mass{
