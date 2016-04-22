@@ -38,27 +38,29 @@ li a{
   padding-top: 2px;
   padding-bottom: 2px;
 }
-#image {
-  line-height: 650px;
-  width: 575px;
-  height: 650px;
-  border: 2px solid black;
-  margin: 0 auto;
-  background-color: #8e68ff;
-  background-image: url('');
-  background-repeat: no-repeat;
-  color: #FFFFFF;
-  text-align: center;
-  background-size: 100%;
-  margin-bottom: 25px;
-  font-size: 150%;
-}
+
 .jumbotron {
     padding:15px 15px 15px 15px;
     margin:0px auto;
-    background: light grey ;
-    color:floralwhite;
+   
+    
 }
+
+figure, iframe{
+   width:50%;
+   height:300px;
+   float:left;
+   margin:0px auto;
+   padding:20px 20px 20px 20px;
+   border:0px;
+}
+@media(max-width:767px){
+ figure, iframe{  
+   width: 100%
+   
+ }
+}
+
 body {
   margin: 2%;
   align:center;
@@ -96,7 +98,7 @@ body {
     top: 0;
     left: 0;
     min-height: 300px;
-    
+   
 }
 @media (min-width:768px) and (max-width:991px){
  .carousel .item {

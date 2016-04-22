@@ -33,7 +33,7 @@ li a{
    -webkit-animation-delay:2s;
    -moz-animation: mymove 5s infinite;
    -moz-animation-delay:2s;
-
+  
 
 }
 @-webkit-keyframes mymove{
@@ -63,6 +63,7 @@ li a{
    overflow: hidden;
    opacity:0;
    color: white;
+   margin-top: 150px;
    -webkit-animation: rotate 5s linear infinite 0s;
    -moz-animation: rotate 5s linear infinite 0s;
 }
@@ -205,6 +206,8 @@ a,img{
   
   
 }
+
+
 figcaption{
   color: red;
 }
