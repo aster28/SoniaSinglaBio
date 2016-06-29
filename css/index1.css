@@ -219,7 +219,9 @@ img {
   background-color:lightgrey;
   
 }
-
+p{
+  color:red;
+}
 .motive{
   text-align:center;
   margin-top:120px;
