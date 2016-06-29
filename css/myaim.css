@@ -2,13 +2,24 @@
 .jumbotron {
     padding:15px 15px 15px 15px;
    
-    margin:50px;
+    margin:0px auto;
    
     
 }
-.center{
+.centre{
   text-align:center;
-  margin-left: 220px;width: 600px; 
+  margin-top: 50px;
+  margin-left:350px;width: 600px; 
+
+  
+}
+
+@media(max-width:767px){
+ .centre{  
+   width: 100%;
+   margin:0px;
+   
+ }
 }
 body {
     
