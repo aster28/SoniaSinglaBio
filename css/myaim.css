@@ -44,10 +44,12 @@ body {
   background-color: rgb(232,230,230);
 }
 nav{
-  position: absolute;
+  position: fixed;
   margin :0px;
   height: 10px;
   border:2px;
+  top: 0; 
+  left: 0; 
 }
 
 
