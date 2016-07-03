@@ -20,7 +20,7 @@ li a{
 .centre{
   text-align:center;
   margin-top: 50px;
-  margin-left:250px;width: 600px; 
+  margin-left:180px;width: 600px; 
 
   
 }
@@ -34,6 +34,7 @@ li a{
    
  }
 }
+
 body {
     
   overflow:hidden;
