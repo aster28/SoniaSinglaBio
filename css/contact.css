@@ -24,9 +24,9 @@ li a{
     margin-top:100px;
 }
 @media(max-width:767px){
- .image{  
-   width: 100%;
-   margin:0px;
+ .image img{  
+     width: 100%;
+     margin:0px;
    
  }
 }
