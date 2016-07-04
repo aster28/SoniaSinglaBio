@@ -12,7 +12,7 @@ li a{
   padding-top: 2px;
   padding-bottom: 2px;
 }
- img{
+.image{
   border: 2px solid #000000; 
   margin: 35px;
   width: 30%
