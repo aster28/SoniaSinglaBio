@@ -20,7 +20,7 @@ li a{
 }
 .image img:hover{
     box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-    width:40%;
+    
     transform: scale(1.05);
     
 }
