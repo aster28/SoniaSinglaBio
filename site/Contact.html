@@ -25,13 +25,13 @@
 <body>
 
  <div class="container">
-   <form class="form-horizontal" role="form" method="post" action="process.asp">
+   <form class="form-horizontal" role="form" method="post" action="">
      <legend>Contact</legend>
      <fieldset>
-        <label>First Name<sup>*</sup></label><span class="glyphicon glyphicon-user"></span> <input type ="text"  placeholder="first name" required/><br>
-        <label>Last Name<sup>*</sup></label><span class="glyphicon glyphicon-user"></span> <input type ="text" placeholder="last name" required/><br>
-        <label>Email<sup>*</sup></label><span class="glyphicon glyphicon-user"></span> <input type ="text" placeholder="email" required/><br>
-        <label>Comments<sup>*</sup></label><textarea  placeholder="comments" required></textarea>  <br>
+        <label>First Name<sup>*</sup></label><span class="glyphicon glyphicon-user"></span> <input type ="text" name="name" placeholder="first name" required/><br>
+        <label>Last Name<sup>*</sup></label><span class="glyphicon glyphicon-user"></span> <input type ="text" name="name" placeholder="last name" required/><br>
+        <label>Email<sup>*</sup></label><span class="glyphicon glyphicon-user"></span> <input type ="text"name="name" placeholder="email" required/><br>
+        <label>Comments<sup>*</sup></label><textarea  placeholder="comments" name="msg"required></textarea>  <br>
         <button><span class="glyphicon glyphicon-send"></span>Submit</button>
           
      </fieldset>
@@ -39,7 +39,14 @@
    </form>
    
  </div>
- 
+ <?php
+    $msg = $_POST["msg"];
+    $name = $_POST["name"];
+    $posts = file_get_contents("posts.txt");
+    $posts = "$msg - $name\n" . $posts;
+    file_put_contents("posts.txt", $posts);
+    echo $posts;
+ ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../bootstrap/js/bootstrap.min.js"></script>
