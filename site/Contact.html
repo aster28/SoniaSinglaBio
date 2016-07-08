@@ -35,11 +35,13 @@
         <button onclick="getwords()"><span class="glyphicon glyphicon-send"></span>Submit</button>
           
      </fieldset>
-    
+    <div id ="contact">
+       <p id="para"></p>
+ </div>
    </form>
    
  </div>
- <div>
+ <div id ="contact">
     <p id="para"></p>
  </div>
  <script>
@@ -47,7 +49,7 @@
        text = words.value;
        text1 = word.value;
        text2 = word1.value;
-       document.getElementById("para").innerHTML += '<p>'+text + text1+text2
+       document.getElementById("para").innerHTML += '<p>'+text + " "+ text1+"  "+text2
        document.getElementById("words").value = "enter"
 }
  </script>
