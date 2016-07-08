@@ -6,12 +6,13 @@ li,a {
   
 }
 a,img{
-  text-align:cener;
+  text-align:center;
   
   
 }
 .image3{
   text-align:right;
+  color : 2px solid rgb(0,220,0);
 }
 h1{
   color: red;
