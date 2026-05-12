@@ -60,20 +60,20 @@
  	
  <div class='img-group'>
     
-    <img src = "../stylesheets/images/FB_IMG_1778582140771.jpg" />
-    <img src ="../stylesheets/images/IMG_20260404_130543.jpg " />
-    <img src ="../stylesheets/images/IMG_20260420_131622.jpg" />
-    <img src ="../stylesheets/images/IMG_20260425_132254.jpg" />
-    <img src ="../stylesheets/images/1000335058.jpg" />
-     <img src = "../stylesheets/images/1000335059.jpg" />
-    <img src ="../stylesheets/images/1000335060.jpg " />
-    <img src ="../stylesheets/images/1000335061.jpg" />
-    <img src ="../stylesheets/images/1000335062.jpg" />
-    <img src ="../stylesheets/images/1000335063.jpg" />
-     <img src ="../stylesheets/images/1000335087.jpg" />
-    <img src ="../stylesheets/images/1000335088.jpg" />
-    <img src ="../stylesheets/images/1000335089.jpg" />
-    <img src ="../stylesheets/images/1000335090.jpg" />
+    <img src = "../stylesheets/images/FB_IMG_1778582140771.jpg" border="0"  width="200" height="200"//>
+    <img src ="../stylesheets/images/IMG_20260404_130543.jpg " border="0"  width="200" height="200"//>
+    <img src ="../stylesheets/images/IMG_20260420_131622.jpg" border="0"  width="200" height="200"//>
+    <img src ="../stylesheets/images/IMG_20260425_132254.jpg" border="0"  width="200" height="200"//>
+    <img src ="../stylesheets/images/1000335058.jpg" border="0"  width="200" height="200"//>
+     <img src = "../stylesheets/images/1000335059.jpg" border="0"  width="200" height="200"//>
+    <img src ="../stylesheets/images/1000335060.jpg " border="0"  width="200" height="200"//>
+    <img src ="../stylesheets/images/1000335061.jpg" border="0"  width="200" height="200"//>
+    <img src ="../stylesheets/images/1000335062.jpg"border="0"  width="200" height="200"//>
+    <img src ="../stylesheets/images/1000335063.jpg" border="0"  width="200" height="200"//>
+     <img src ="../stylesheets/images/1000335087.jpg" border="0"  width="200" height="200"//>
+    <img src ="../stylesheets/images/1000335088.jpg" border="0"  width="200" height="200"//>
+    <img src ="../stylesheets/images/1000335089.jpg" border="0"  width="200" height="200"//>
+    <img src ="../stylesheets/images/1000335090.jpg" border="0"  width="200" height="200"//>
     
 
     
