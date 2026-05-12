@@ -9,7 +9,18 @@ body {
   
   
 }
-
+.img-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  width: 100%;
+}
+.img-group img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  width: 100%;
+}
 h1{
   color:floralwhite;
   text-align:center;
