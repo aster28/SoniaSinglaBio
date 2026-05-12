@@ -58,7 +58,7 @@
 </nav>	
 <div class="jumbotron">
  	
- <div id = 'img' class='img-group'>
+ <div class='img-group'>
     
     <img src = "../stylesheets/images/FB_IMG_1778582140771.jpg" />
     <img src ="../stylesheets/images/IMG_20260404_130543.jpg " />
