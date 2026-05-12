@@ -60,8 +60,8 @@
  	
  <div id = 'img' class='image'>
     
-    <img src = "images/FB_IMG_1778582140771.jpg" />
-    <img src ="images/ " />
+    <img src = "../images/FB_IMG_1778582140771.jpg" />
+    <img src ="../images/IMG_20260404_130543.jpg " />
     <img src ="https://photos.google.com/photo/AF1QipOhzT89H3tloqWnnT_9WTEUN9DGS9AnXTS2H9I9" />
     <img src ="https://photos.google.com/photo/AF1QipO_tih0wqVbv4cR0lANa9RBV0fRaDGUa7LSDthe" />
     <img src ="https://photos.google.com/photo/AF1QipPsFdQGPcLTPnJfbymizlVe4OznlDZlmj0Ze2AC" />
